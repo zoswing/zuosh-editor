@@ -1,0 +1,98 @@
+ .editor-code-container {
+     .empty-container {
+         height: 100%;
+         width: 100;
+         width: 100%;
+         background: darkgray;
+     }
+
+     display: flex;
+     flex-direction: column;
+
+     .file-tab__container {
+         display: flex;
+         align-items: center;
+
+         .ant-tabs-top>.ant-tabs-nav,
+         .ant-tabs-bottom>.ant-tabs-nav,
+         .ant-tabs-top>div>.ant-tabs-nav,
+         .ant-tabs-bottom>div>.ant-tabs-nav {
+             margin-bottom: 0;
+         }
+
+         .close-button {
+             .ant-btn-icon-only.ant-btn-sm>* {
+                 font-size: 12px;
+             }
+         }
+
+         .dot-close {
+             width: 12px;
+             height: 12px;
+             border-radius: 50%;
+             background-color: rgba(0, 0, 0, 0.25);
+         }
+
+         // 文本倾斜
+         .font-oblique {
+             font-style: oblique;
+         }
+     }
+
+
+     .monaco-container {
+         flex: 1;
+
+         .unsupport {
+             height: 100%;
+             width: 100%;
+             display: flex;
+             align-items: center;
+             background: #9e9e9e26;
+             justify-content: center;
+
+             &__text {
+                 font-size: 25px;
+             }
+         }
+     }
+
+ }
+
+ .editor-tree-container {
+     display: flex;
+     flex-direction: column;
+
+     .tree-tools {
+         display: flex;
+         justify-content: space-between;
+
+         &__right {
+             display: flex;
+         }
+     }
+
+     .tree-content {
+         flex: 1;
+     }
+
+     .ant-tree.ant-tree-directory .ant-tree-treenode::before {
+         bottom: 0;
+     }
+
+     .ant-tree .ant-tree-node-content-wrapper {
+         padding: 0;
+     }
+
+     .ant-tree .ant-tree-treenode {
+         padding: 0;
+     }
+
+     .ant-tree-node-content-wrapper {
+         display: flex;
+     }
+
+     .ant-tree-title {
+         width: 100%;
+     }
+ }

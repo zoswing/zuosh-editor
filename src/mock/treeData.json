@@ -1,0 +1,108 @@
+[
+    {
+        "path": "/Users/zuoshaohui/code/test/miniapp-business/",
+        "name": "app.js"
+    },
+    {
+        "path": "/Users/zuoshaohui/code/test/miniapp-business/",
+        "name": "app.json"
+    },
+    {
+        "path": "/Users/zuoshaohui/code/test/miniapp-business/",
+        "name": "app.qss"
+    },
+    {
+        "path": "/Users/zuoshaohui/code/test/miniapp-business/",
+        "name": "package.json"
+    },
+    {
+        "path": "/Users/zuoshaohui/code/test/miniapp-business/",
+        "name": "pages",
+        "children": [
+            {
+                "path": "/Users/zuoshaohui/code/test/miniapp-business/pages/",
+                "name": "ad",
+                "children": [
+                    {
+                        "path": "/Users/zuoshaohui/code/test/miniapp-business/pages/ad/",
+                        "name": ".js"
+                    },
+                    {
+                        "path": "/Users/zuoshaohui/code/test/miniapp-business/pages/ad/",
+                        "name": "index.js"
+                    },
+                    {
+                        "path": "/Users/zuoshaohui/code/test/miniapp-business/pages/ad/",
+                        "name": "index.json"
+                    },
+                    {
+                        "path": "/Users/zuoshaohui/code/test/miniapp-business/pages/ad/",
+                        "name": "index.qml"
+                    },
+                    {
+                        "path": "/Users/zuoshaohui/code/test/miniapp-business/pages/ad/",
+                        "name": "index.qss"
+                    }
+                ]
+            },
+            {
+                "path": "/Users/zuoshaohui/code/test/miniapp-business/pages/",
+                "name": "index",
+                "children": [
+                    {
+                        "path": "/Users/zuoshaohui/code/test/miniapp-business/pages/index/",
+                        "name": "index.js"
+                    },
+                    {
+                        "path": "/Users/zuoshaohui/code/test/miniapp-business/pages/index/",
+                        "name": "index.json"
+                    },
+                    {
+                        "path": "/Users/zuoshaohui/code/test/miniapp-business/pages/index/",
+                        "name": "index.qml"
+                    },
+                    {
+                        "path": "/Users/zuoshaohui/code/test/miniapp-business/pages/index/",
+                        "name": "index.qss"
+                    }
+                ]
+            },
+            {
+                "path": "/Users/zuoshaohui/code/test/miniapp-business/pages/",
+                "name": "logs",
+                "children": [
+                    {
+                        "path": "/Users/zuoshaohui/code/test/miniapp-business/pages/logs/",
+                        "name": "logs.js"
+                    },
+                    {
+                        "path": "/Users/zuoshaohui/code/test/miniapp-business/pages/logs/",
+                        "name": "logs.json"
+                    },
+                    {
+                        "path": "/Users/zuoshaohui/code/test/miniapp-business/pages/logs/",
+                        "name": "logs.qml"
+                    },
+                    {
+                        "path": "/Users/zuoshaohui/code/test/miniapp-business/pages/logs/",
+                        "name": "logs.qss"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "path": "/Users/zuoshaohui/code/test/miniapp-business/",
+        "name": "project.config.json"
+    },
+    {
+        "path": "/Users/zuoshaohui/code/test/miniapp-business/",
+        "name": "utils",
+        "children": [
+            {
+                "path": "/Users/zuoshaohui/code/test/miniapp-business/utils/",
+                "name": "util.js"
+            }
+        ]
+    }
+]
